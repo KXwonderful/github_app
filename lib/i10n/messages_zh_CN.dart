@@ -33,6 +33,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "userNameOrPasswordWrong":
             MessageLookupByLibrary.simpleMessage("用户名或密码不正确"),
         "userNameRequired": MessageLookupByLibrary.simpleMessage("用户名不能为空"),
-        "yes": MessageLookupByLibrary.simpleMessage("确定")
+        "yes": MessageLookupByLibrary.simpleMessage("确定"),
+        "animBg": MessageLookupByLibrary.simpleMessage("优美的动画")
       };
 }

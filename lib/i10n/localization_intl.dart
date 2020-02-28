@@ -39,6 +39,8 @@ class GmLocalizations {
 
   String get theme => Intl.message('Theme', name: 'theme');
 
+  String get animBg => Intl.message('Beautiful Animation', name: 'animBg');
+
   String get noDescription =>
       Intl.message('No description yet !', name: 'noDescription');
 

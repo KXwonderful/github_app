@@ -139,6 +139,11 @@ class MyDrawer extends StatelessWidget {
             title: Text(gm.language),
             onTap: () => Navigator.pushNamed(context, "language"),
           ),
+          ListTile(
+            leading: const Icon(Icons.beach_access),
+            title: Text(gm.animBg),
+            onTap: () => Navigator.pushNamed(context, "animBg"),
+          ),
           if (userModel.isLogin)
             ListTile(
               leading: const Icon(Icons.power_settings_new),

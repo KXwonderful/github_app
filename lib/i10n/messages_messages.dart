@@ -36,6 +36,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "User name or password is not correct!"),
         "userNameRequired":
             MessageLookupByLibrary.simpleMessage("User name required!"),
-        "yes": MessageLookupByLibrary.simpleMessage("yes")
+        "yes": MessageLookupByLibrary.simpleMessage("yes"),
+        "animBg": MessageLookupByLibrary.simpleMessage("Beautiful Animation"),
       };
 }

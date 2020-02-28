@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:github_app/commom/global.dart';
 import 'package:github_app/i10n/localization_intl.dart';
+import 'package:github_app/routes/anim_page.dart';
 import 'package:github_app/routes/home_page.dart';
 import 'package:github_app/routes/language.dart';
 import 'package:github_app/routes/login.dart';
@@ -58,6 +59,7 @@ class MyApp extends StatelessWidget {
               "login": (context) => LoginRoute(),
               "themes": (context) => ThemeChangeRoute(),
               "language": (context) => LanguageRoute(),
+              "animBg": (context) => AnimBgRoute(),
             },
           );
         },
