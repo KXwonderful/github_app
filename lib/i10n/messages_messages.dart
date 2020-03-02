@@ -38,5 +38,6 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("User name required!"),
         "yes": MessageLookupByLibrary.simpleMessage("yes"),
         "animBg": MessageLookupByLibrary.simpleMessage("Beautiful Animation"),
+        "video": MessageLookupByLibrary.simpleMessage("Video"),
       };
 }

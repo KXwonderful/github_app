@@ -144,6 +144,11 @@ class MyDrawer extends StatelessWidget {
             title: Text(gm.animBg),
             onTap: () => Navigator.pushNamed(context, "animBg"),
           ),
+          ListTile(
+            leading: const Icon(Icons.ondemand_video),
+            title: Text(gm.video),
+            onTap: () => Navigator.pushNamed(context, "video"),
+          ),
           if (userModel.isLogin)
             ListTile(
               leading: const Icon(Icons.power_settings_new),

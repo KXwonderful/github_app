@@ -7,6 +7,7 @@ import 'package:github_app/routes/home_page.dart';
 import 'package:github_app/routes/language.dart';
 import 'package:github_app/routes/login.dart';
 import 'package:github_app/routes/theme_change.dart';
+import 'package:github_app/routes/video_player.dart';
 import 'package:github_app/states/profile_change_notifier.dart';
 import 'package:provider/provider.dart';
 
@@ -60,6 +61,7 @@ class MyApp extends StatelessWidget {
               "themes": (context) => ThemeChangeRoute(),
               "language": (context) => LanguageRoute(),
               "animBg": (context) => AnimBgRoute(),
+              "video": (context) => VideoRoute(),
             },
           );
         },

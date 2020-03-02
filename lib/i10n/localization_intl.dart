@@ -41,6 +41,8 @@ class GmLocalizations {
 
   String get animBg => Intl.message('Beautiful Animation', name: 'animBg');
 
+  String get video => Intl.message('Video', name: 'video');
+
   String get noDescription =>
       Intl.message('No description yet !', name: 'noDescription');
 
